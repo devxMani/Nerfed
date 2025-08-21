@@ -89,62 +89,48 @@ const data: I_About[] = [
     {
         year: 2024,
         events: [
-            "Dove deep into Web Development, mastered cutting-edge technologies and builded more the 20 projects. 🚀",
-            "Started my journey in Web3 development, creating decentralized applications and embracing blockchain technology. ⛓",
-            "Got funded by Adobe for an project and Proud of the progress I've made so far—each step has been a leap forward in my career."
+            "Dove deep into web development, mastered cutting-edge technologies, and built more than 10 projects. 🚀",
+            "Started my journey in Web3 development, learning about decentralized applications and embracing blockchain technology. ⛓",
+            "Got the chance to join the Google Machine Learning Project as a Prompt Engineer—helping build prompts and train their ML models, and received a stipend for those contributions.",
+            "Joined GSSOC EXT 24, where I contributed to full-stack development and machine learning projects, submitting over 100 PRs. I also contributed to Hacktoberfest during that time",
         ]
     },
     {
         year: 2023,
         events: [
-            "Shifted focus from cricket due to family priorities, but gained clarity on my passion for technology.",
-            "Started my BCA journey without prior programming knowledge and quickly developed a love for coding. 🚀",
-            "Bought my first laptop and taught myself C programming and web development—sparking my passion for building software. 💻"
+            
+            
+            " Shifted my focus towards understanding both frontend and backend development, diving deep into the core technologies behind them. 🚀", 
+            " Explored the Linux terminal and command-line tools to strengthen my fundamentals, while also venturing into AI and machine learning—broadening my perspective on modern computing. 💻"
         ]
     },
     {
         year: 2022,
         events: [
-            "Graduated from high school with a 90% score. 📜",
-            "Balanced academics while pursuing professional cricket, excelling in both fields."
+            "I joined B.Tech in Computer Science and, in the beginning, explored a variety of technologies and programming languages—including blockchain and cryptocurrency—broadening my understanding of the latest trends in tech. 📜",
+            
         ]
     },
-    {
-        year: 2021,
-        events: [
-            "Faced setbacks due to the lockdown, which halted both my cricket career and studies, but found resilience and new paths during tough times. 😷"
-        ]
-    },
-    {
-        year: 2020,
-        events: [
-            "Completed 10th grade with 70%, marking a pivotal moment as I started playing professional cricket. 🏏"
-        ]
-    },
+    
     {
         year: 2019,
         events: [
-            "Like any curious engineer, I spent my teenage years exploring, tinkering, and experimenting with technology.",
-            "Built a makeshift motorcycle-style brake lighting system on my bicycle—my first DIY tech project. 🏍️"
+            "Completed 10th grade, Like any curious engineer, I spent my teenage years exploring, tinkering, and experimenting with technology. 🏍️" 
         ]
     },
+    
     {
-        year: 2017,
-        events: [
-            "Discovered computers for the first time in a cyber cafe—my gateway into the digital world. 💻",
-            "At the time, I only saw computers as gaming machines, but little did I know it would become my future."
-        ]
-    },
-    {
-        year: 2015,
+        year: 2013,
         events: [
             "Started watching cricket and became an instant fan of a young Virat Kohli, sparking my passion for the sport. 🔥"
         ]
     },
+   
     {
-        year: 2005,
+        year: 2009,
         events: [
-            "The year I was born, the first future software engineer in the family! 👶🏼 🍼"
+            "I used a computer for the first time playing different games like Road Rash, GTA Vice City, San Andreas, and IGI. That was the beginning of my curiosity about the world of computers.  💻",
+            "Back then, I saw computers only as gaming machines—little did I know they would become such an important part of my future."
         ]
     },
 ];
