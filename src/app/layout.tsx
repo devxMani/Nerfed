@@ -11,18 +11,18 @@ import dynamic from "next/dynamic";
 const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "fardeen",
-  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
-  keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
-  authors: [{ name: "Fardeen Mansoori" }],
+  title: "Mani",
+  description: "Mani is a Full Stack Developer specializing in building impactful web applications from scratch. Explore this portfolio to see my projects and skills.",
+  keywords: "Mani, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
+  authors: [{ name: "Mani" }],
   openGraph: {
-    title: "fardeen",
+    title: "Mani",
     description: "",
     url: "https://fardeen.tech",
-    siteName: "fardeen",
+    siteName: "Mani",
     images: [
       {
-        url: "https://res.cloudinary.com/dl27j0qcm/image/upload/v1739721063/gradii-3840x2160_3_jqk2nt.png",
+        url: "/icon.png",
         width: 400,
         height: 200,
         alt: "fardeen",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'fardeen',
-    creator: '@fardeentwt',
+    title: 'Mani',
+    creator: '@devxMani',
   },
 };
 
