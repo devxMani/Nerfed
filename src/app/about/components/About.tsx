@@ -83,7 +83,7 @@ const data: I_About[] = [
     {
         year: 2025,
         events: [
-            "Building something new this year—stay tuned."
+            "  Brewing something exciting and innovative this year—stay tuned for a project that’s set to push boundaries and ignite curiosity! The best is yet to come.👀"
         ]
     },
     {
