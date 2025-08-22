@@ -8,6 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import Provider from "@/context/Provider";
 import dynamic from "next/dynamic";
+import Script from "next/script";
 const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), { ssr: false });
 
 export const metadata: Metadata = {
@@ -54,6 +55,7 @@ export default function RootLayout({
               <Analytics />
               <ConditionalFooter />
             </Theme>
+            <Script src="/oneko.js" strategy="afterInteractive" />
           </body>
         </DarkModeProvider>
       </Provider>
