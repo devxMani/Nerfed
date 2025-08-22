@@ -53,7 +53,7 @@ const data: Project[] = [
     title: "StoryForge AI",
     description: "Developed a full stack platform for creating interactive, AI-generated adventure stories enabling users to create and explore interactive stories.",
     techStack: ["React", "Python", "Fast API", "Openai API", "PostgreSQL", "JwtAuth", "Docker"],
-    link: "https://enrich-salon.fardeen.tech",
+    link: "https://github.com/devxMani/StoryForge-AI",
     source: "https://github.com/devxMani/StoryForge-AI",
   },
   {
