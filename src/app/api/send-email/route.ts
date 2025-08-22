@@ -14,13 +14,6 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!resend) {
-      return NextResponse.json(
-        { success: false, message: 'Email service not configured.' },
-        { status: 500 }
-      );
-    }
-
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { data, error } = await resend.emails.send({
       from: 'Portfolio <onboarding@resend.dev>',
