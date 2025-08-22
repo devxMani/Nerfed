@@ -18,18 +18,18 @@ export const experienceData: I_Experience[] = [
     //     description: ""
     // },
     {
-        company_link: "https://x.com/fardeentwt",
-        company_logo: "/freelance-icon.webp",
-        company_name: "building full stack apps",
-        duration: "2024 - present",
-        job_title: "Freelance",
+        company_link: "https://x.com/devxMani",
+        company_logo: "/google.webp",
+        company_name: "Building prompts for ML models",
+        duration: "Dec 2024  - Mar 2025",
+        job_title: "Prompt engineer",
         description: ""
     },
     {
-        company_link: "https://x.com/fardeentwt",
-        company_logo: "/stealth-startup.jpeg",
-        company_name: "Stealth Startup",
-        duration: "Feb 2024 - June 2024",
+        company_link: "https://x.com/devxMani",
+        company_logo: "/gssoc.webp",
+        company_name: "Gssoc ext 24",
+        duration: "Oct 2024 - Dec 2024",
         job_title: "Full Stack Development - TA",
         description: ""
     }
@@ -37,12 +37,12 @@ export const experienceData: I_Experience[] = [
 
 export const educationData: I_Education[] = [
     {
-        institute_link: "https://www.uok.ac.in/",
-        institute_logo: "/uok.gif",
+        institute_link: "https://x.com/devxMani",
+        institute_logo: "/lpu.jpg",
         course_title: "Bachelors of Computer Application",
         ending_date: "Expected July 2025",
-        institute_name: "University of Kota",
-        cgpa: 8.5,
+        institute_name: "Lovely professional university",
+        cgpa: 7,
         description: ""
     }
 ] 

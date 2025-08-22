@@ -6,11 +6,11 @@ async function main() {
     where: { id: '1' },
     update: {},
     create: {
-      title: "How to setup the docker on windows",
-      author: "Fardeen Mansoori",
+      title: "How to Make Your Website Link Look Amazing on Social Media?",
+      author: "Mani",
       createdAt: new Date(),
       image_public_id: "next-cloudinary-uploads/q3joxrqyjkbnoxlw1n61",
-      content: "Here is the youtube video link check it out: https://youtu.be/ZyBBv1JmnWQ?si=wUyZVoh0mFW-jhn6",
+      content: "https://medium.com/@chandramanigupta2003/how-to-make-your-website-link-look-amazing-on-social-media-800acfa0aec6",
     },
   })
   console.log({ result })

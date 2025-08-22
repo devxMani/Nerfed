@@ -3,7 +3,7 @@ import BlogCard from './BlogCard'
 
 export async function getBlogs() {
     try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/blogs`, {
+        const response = await fetch(`/api/blogs`, {
             cache: 'no-store'
         });
         const data = await response.json();
