@@ -23,6 +23,7 @@ const About = () => {
 
                                 {item.events.map((event, idx) => (
                                     <div key={idx} className={`flex items-center gap-2 ${bricolage_grotesque}`}>
+                                        {/* @ts-expect-error React version conflict */}
                                         <span><Separator orientation='horizontal' size='1' className='w-8 bg-black dark:bg-gray-400' /></span>
                                         <span className='text-[15px] max-sm:text-sm dark:text-[#dfdede]'>{event}</span>
                                     </div>

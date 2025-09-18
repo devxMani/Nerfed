@@ -6,7 +6,9 @@ export default function GitGraph() {
     return (
         <div className="w-full flex flex-col items-center mt-8 mb-4 gap-4 max-sm:hidden">
             <Title title="GitHub Contributions" />
+            {/* @ts-expect-error React version conflict */}
             <Link href={'https://github.com/devxMani'} target="_blank">
+                {/* @ts-expect-error React version conflict */}
                 <GitHubCalendar
                     username="devxMani"
                     blockSize={10}

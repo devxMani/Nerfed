@@ -52,10 +52,13 @@ export default function LoginForm() {
             <div className="dark:bg-white dark:text-black bg-black text-white px-5 pt-10 pb-16 rounded-lg max-sm:w-full">
                 <Title title="Login" />
                 <form className="space-y-3 mt-8" onSubmit={loginUser}>
+                    {/* @ts-expect-error React version conflict */}
                     <Input type="text" className='w-full h-full border dark:placeholder:text-black placeholder:text-white' placeholder='johndoe69@xyz.com' value={email} onChange={(e) => setEmail(e.target.value)} required />
 
+                    {/* @ts-expect-error React version conflict */}
                     <Input type="password" className='w-full h-full border dark:placeholder:text-black placeholder:text-white' placeholder='Enter Password' value={password} onChange={(e) => setPassword(e.target.value)} required />
 
+                    {/* @ts-expect-error React version conflict */}
                     <Button className="dark:bg-black dark:text-white text-black bg-white mt-10 w-full dark:hover:bg-slate-800 hover:bg-gray-200">
                         {
                             isLoading ? 'Loading...' : 'Login'
