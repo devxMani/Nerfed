@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Theme } from "@radix-ui/themes";
 import '@radix-ui/themes/styles.css';
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarNew";
 import DarkModeProvider from "@/context/DarkModeContext";
 import { Toaster } from "sonner";
 import { Analytics } from '@vercel/analytics/react';
@@ -45,6 +45,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&family=Nothing+You+Could+Do&display=swap" rel="stylesheet" />
+      </head>
       <Provider>
         <DarkModeProvider>
           <body className={`bg-white dark:bg-black`}>
